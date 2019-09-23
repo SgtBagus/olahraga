@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/select2/css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/custom.css">
     <!-- owl carousel -->
 
 
@@ -31,7 +32,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#0075ad;border-color:#fff;border-bottom: 4px solid #ffffff;">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#0075ad;border-color:#0075ad;">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
@@ -44,25 +45,25 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                 <?php if($this->session->userdata("authAdmin")==true && $this->session->userdata("authMember")==true){ ?>
-                 <li><a href="<?=base_url()?>my-profile/"><?= $m->m_first_name.' '.$m->m_last_name; ?> (<?=$m->m_rule?>)</a></li>
-                 <li><a href="<?=base_url()?>logout-process/">Keluar</a></li>
-                 <?php }else if($this->session->userdata("authMember")==true){ ?>
-                 <li><a href="<?=base_url()?>my-profile/"><?= $m->m_first_name.' '.$m->m_last_name; ?> (<?=$m->m_rule?>)</a></li>
-                 <li><a href="<?=base_url()?>logout-process/">Keluar</a></li>
-                 <?php }else if($this->session->userdata("authAdmin")==true && $this->uri->segment(1)=='invoice'){ ?>
-                 <li><a href="<?=base_url()?>po-admin/dashboard/"><?= $a->ad_name?> (<?=$a->ad_rule?>)</a></li>
-                 <li><a href="<?=base_url()?>po-admin/logout-process/">Keluar</a></li>
-                 <?php }else{ ?>
-                 <li><a href="<?=base_url()?>register/">Daftar</a></li>
-                 <li><a href="<?=base_url()?>login/">Masuk</a></li>
-                 <?php } ?>
-             </ul>
-         </div>
-     </div>
- </nav>
- <?=$contents?>
- <footer>
+                   <?php if($this->session->userdata("authAdmin")==true && $this->session->userdata("authMember")==true){ ?>
+                       <li><a href="<?=base_url()?>my-profile/"><?= $m->m_first_name.' '.$m->m_last_name; ?> (<?=$m->m_rule?>)</a></li>
+                       <li><a href="<?=base_url()?>logout-process/">Keluar</a></li>
+                   <?php }else if($this->session->userdata("authMember")==true){ ?>
+                       <li><a href="<?=base_url()?>my-profile/"><?= $m->m_first_name.' '.$m->m_last_name; ?> (<?=$m->m_rule?>)</a></li>
+                       <li><a href="<?=base_url()?>logout-process/">Keluar</a></li>
+                   <?php }else if($this->session->userdata("authAdmin")==true && $this->uri->segment(1)=='invoice'){ ?>
+                       <li><a href="<?=base_url()?>po-admin/dashboard/"><?= $a->ad_name?> (<?=$a->ad_rule?>)</a></li>
+                       <li><a href="<?=base_url()?>po-admin/logout-process/">Keluar</a></li>
+                   <?php }else{ ?>
+                       <li><a href="<?=base_url()?>register/">Daftar</a></li>
+                       <li><a href="<?=base_url()?>login/">Masuk</a></li>
+                   <?php } ?>
+               </ul>
+           </div>
+       </div>
+   </nav>
+   <?=$contents?>
+   <footer>
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -92,15 +93,6 @@
     <script type="text/javascript" src="<?=base_url()?>assets/lazyload/lazyload.transpiled.min.js"></script>
 
     <script type="text/javascript" src="<?=base_url()?>assets/select2/js/select2.min.js"></script>
-    <script type="text/javascript">
-        $("#keyword").select2();
-        $(".select2").select2();
-
-        $('.datepicker').datepicker({});
-
-        new LazyLoad();
-    </script>
-
 </body>
 
 </html>
