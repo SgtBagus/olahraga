@@ -189,94 +189,100 @@
         <div class="row">
             <h1 class="section-title">Lapangan Siap Pakai</h1>
             <div class="col-md-4">
-                <div class="list-lapang-search" style="margin-top:15px;">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img style="height: 230px; width: 100%; object-fit: cover; display: inline;" src="https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h4>Lapangan 1</h4>
-                            <p><b>Pembuat</b></p>
-                            <div class="indicator-green">
-                                <span> Tersedia 1 </span>
+                <a href="<?= base_url('field/view/') ?>lapangan-1">
+                    <div class="list-lapang-search" style="margin-top:15px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img style="height: 230px; width: 100%; object-fit: cover; display: inline;" src="https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
                             </div>
                         </div>
-                        <div class="col-md-8">
-                            <h4>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <small>Review : 2.5 dari 23</small>
-                            </h4>
-                            <p>Alamat nya disini</p>
-                            Jam Buka : <b>02:00 - 10:00</b> 
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4>Lapangan 1</h4>
+                                <p><b>Pembuat</b></p>
+                                <div class="indicator-green">
+                                    <span> Tersedia 1 </span>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <small>Review : 2.5 dari 23</small>
+                                </h4>
+                                <p>Alamat nya disini</p>
+                                Jam Buka : <b>02:00 - 10:00</b> 
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="list-lapang-search" style="margin-top:15px;">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img style="height: 230px; width: 100%; object-fit: cover; display: inline;" src="https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h4>Lapangan 1</h4>
-                            <p><b>Pembuat</b></p>
-                            <div class="indicator-green">
-                                <span> Tersedia 1 </span>
+                <a href="<?= base_url('field/view/') ?>lapangan-1">
+                    <div class="list-lapang-search" style="margin-top:15px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img style="height: 230px; width: 100%; object-fit: cover; display: inline;" src="https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
                             </div>
                         </div>
-                        <div class="col-md-8">
-                            <h4>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <small>Review : 2.5 dari 23</small>
-                            </h4>
-                            <p>Alamat nya disini</p>
-                            Jam Buka : <b>02:00 - 10:00</b> 
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4>Lapangan 1</h4>
+                                <p><b>Pembuat</b></p>
+                                <div class="indicator-green">
+                                    <span> Tersedia 1 </span>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <small>Review : 2.5 dari 23</small>
+                                </h4>
+                                <p>Alamat nya disini</p>
+                                Jam Buka : <b>02:00 - 10:00</b> 
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="list-lapang-search" style="margin-top:15px;">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img style="height: 230px; width: 100%; object-fit: cover; display: inline;" src="https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h4>Lapangan 1</h4>
-                            <p><b>Pembuat</b></p>
-                            <div class="indicator-green">
-                                <span> Tersedia 1 </span>
+                <a href="<?= base_url('field/view/') ?>lapangan-1">
+                    <div class="list-lapang-search" style="margin-top:15px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img style="height: 230px; width: 100%; object-fit: cover; display: inline;" src="https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
                             </div>
                         </div>
-                        <div class="col-md-8">
-                            <h4>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star" style="color: yellow"></i>
-                                <i class="fa fa-star-o"></i>
-                                <i class="fa fa-star-o"></i>
-                                <small>Review : 2.5 dari 23</small>
-                            </h4>
-                            <p>Alamat nya disini</p>
-                            Jam Buka : <b>02:00 - 10:00</b> 
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4>Lapangan 1</h4>
+                                <p><b>Pembuat</b></p>
+                                <div class="indicator-green">
+                                    <span> Tersedia 1 </span>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star" style="color: yellow"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <small>Review : 2.5 dari 23</small>
+                                </h4>
+                                <p>Alamat nya disini</p>
+                                Jam Buka : <b>02:00 - 10:00</b> 
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
